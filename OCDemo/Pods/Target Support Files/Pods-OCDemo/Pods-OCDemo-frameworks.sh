@@ -161,14 +161,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../../Flutter_Demo/flutter_module_demo/.ios/Flutter/engine/Flutter.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework"
-  install_framework "${PODS_ROOT}/../../../Flutter_Demo/flutter_module_demo/.ios/Flutter/App.framework"
+  install_framework "${PODS_ROOT}/../../test_flutter/.ios/Flutter/engine/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../test_flutter/.ios/Flutter/App.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../../Flutter_Demo/flutter_module_demo/.ios/Flutter/engine/Flutter.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework"
-  install_framework "${PODS_ROOT}/../../../Flutter_Demo/flutter_module_demo/.ios/Flutter/App.framework"
+  install_framework "${PODS_ROOT}/../../test_flutter/.ios/Flutter/engine/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../test_flutter/.ios/Flutter/App.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -1,28 +1,28 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_module_demo (0.0.1):
-    - Flutter
   - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - test_flutter (0.0.1):
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `../../Flutter_Demo/flutter_module_demo/.ios/Flutter/engine`)
-  - flutter_module_demo (from `../../Flutter_Demo/flutter_module_demo/.ios/Flutter`)
-  - FlutterPluginRegistrant (from `../../Flutter_Demo/flutter_module_demo/.ios/Flutter/FlutterPluginRegistrant`)
+  - Flutter (from `../test_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../test_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - test_flutter (from `../test_flutter/.ios/Flutter`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "../../Flutter_Demo/flutter_module_demo/.ios/Flutter/engine"
-  flutter_module_demo:
-    :path: "../../Flutter_Demo/flutter_module_demo/.ios/Flutter"
+    :path: "../test_flutter/.ios/Flutter/engine"
   FlutterPluginRegistrant:
-    :path: "../../Flutter_Demo/flutter_module_demo/.ios/Flutter/FlutterPluginRegistrant"
+    :path: "../test_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  test_flutter:
+    :path: "../test_flutter/.ios/Flutter"
 
 SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  flutter_module_demo: bc392ceeff6d27269e1b9ef70a67ff92a4c7edb5
-  FlutterPluginRegistrant: 8855ca2b426d228cb41aa6c26c0c83b8c49e3593
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+  test_flutter: fb1a246b1fdec89ffd256ea481f6714af7e09862
 
-PODFILE CHECKSUM: 601724c86b5482d0b96c9f0b9daeff1eebbe969e
+PODFILE CHECKSUM: 15fed1ff1b1c35955fb3f2907fe619c7fd8f2d1d
 
 COCOAPODS: 1.7.5

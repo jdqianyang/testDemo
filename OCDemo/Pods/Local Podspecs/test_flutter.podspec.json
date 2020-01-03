@@ -1,8 +1,8 @@
 {
-  "name": "flutter_module_demo",
+  "name": "test_flutter",
   "version": "0.0.1",
   "summary": "Flutter module",
-  "description": "Flutter module - flutter_module_demo",
+  "description": "Flutter module - test_flutter",
   "homepage": "https://flutter.dev",
   "license": {
     "type": "BSD"
